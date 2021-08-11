@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Gilroy Italic Bold";
+  src: url(../font/Gilroy-BoldItalic.ttf);
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}
+main {
+  margin-top: 5rem;
+  padding: 1rem;
+}
+.nav {
+  font-size: 1.25rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1b1c1f;
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav_container_img {
+  height: 3rem;
+  width: 3rem;
+}
+.nav_imagen {
+  display: flex;
+  align-items: center;
+}
+.nav_imagen_logo {
+  display: block;
+  /* height: 70px; */
+  width: 100%;
+  border-radius: 100%;
+}
+.nav_logo-name {
+  font-size: 2rem;
+}
+.nav_list_ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_list_li {
+  margin-left: 15px;
+}
+.nav_list_container {
+  padding: 0.5rem;
+  background-color: #36a07b;
+  border-radius: 25px;
+}
+
+.main_logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main_logo_image {
+  width: 20%;
+}
+.main_logo_title {
+  margin: 0;
+  font-family: "Gilroy Bold", sans-serif;
+  font-size: 4.5rem;
+}
+.main_logo_description {
+  margin: 0;
+}
+.buttons_container {
+  margin: 30px auto 60px auto;
+}
+.principal-buttons_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.principal-buttons {
+  margin-left: 20px;
+  padding: 15px 40px;
+  background-color: #36a07b;
+  border-radius: 10px;
+}
+.secondary-buttons_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button-external {
+  background-color: #7289da;
+}
+.card_container {
+  width: 60%;
+  background-color: #36a07b;
+  display: flex;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 25px;
+  height: 350px;
+}
+.card_image {
+  max-width: 100%;
+  min-width: 10%;
+}
+.card_text_container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  font-size: larger;
+}
+.card_text_subtitle {
+  font-family: "Gilroy Italic Bold";
+}
+.footer_container {
+  width: 100%;
+  height: 150px;
+  background-color: #1b1c1f;
+  display: flex;
+}
+.footer_logo_creators {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_logo_cactus {
+  height: 150px;
+}
+.footer_logo_creators_text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.footer_logo_creators_main-text {
+  margin: 0;
+  font-size: xx-large;
+}
+.footer_logo_creators_text {
+  margin: 0;
+  font-size: larger;
+}
+.footer_all_container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_images_container {
+  width: 50%;
+  height: 150px;
+}
+.footer_image {
+  width: 10%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.footer_text_container {
+  position: absolute;
+  align-items: right;
+  right: 5%;
+  color: white;
+}
+.footer_text {
+  margin: 0;
+  font-size: large;
+}
