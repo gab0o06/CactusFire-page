@@ -38,7 +38,6 @@ main {
 }
 .nav_imagen_logo {
   display: block;
-  /* height: 70px; */
   width: 100%;
   border-radius: 100%;
 }
@@ -106,46 +105,51 @@ main {
 }
 .card_container {
   width: 60%;
+  height: 350px;
   background-color: #36a07b;
-  display: flex;
   margin: 40px auto;
   padding: 30px;
   border-radius: 25px;
-  height: 350px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+.card_img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card_image {
-  max-width: 100%;
-  min-width: 10%;
+  max-width: 80%;
+  max-height: 290px;
 }
-.card_text_container {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-  font-size: larger;
+.card_text_title {
+  text-align: center;
 }
 .card_text_subtitle {
   font-family: "Gilroy Italic Bold";
 }
+
 .footer_container {
   width: 100%;
   height: 150px;
   background-color: #1b1c1f;
-  display: flex;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 150px;
 }
 .footer_logo_creators {
-  margin-left: 50px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 40% 60%;
   align-items: center;
   justify-content: center;
 }
 .footer_logo_cactus {
-  height: 150px;
+  height: 130px;
+  justify-self: right;
 }
 .footer_logo_creators_text-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
+  justify-self: center;
 }
 .footer_logo_creators_main-text {
   margin: 0;
@@ -155,28 +159,31 @@ main {
   margin: 0;
   font-size: larger;
 }
-.footer_all_container {
-  height: 150px;
-  display: flex;
+.footer_images_container{
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 100%;
   align-items: center;
   justify-content: center;
 }
-.footer_images_container {
-  width: 50%;
-  height: 150px;
-}
 .footer_image {
-  width: 10%;
-  margin-top: 40px;
-  margin-left: 20px;
+  width: 50%;
+  justify-self: center;
+}
+.kiaura_logo{
+  width: 100%
 }
 .footer_text_container {
-  position: absolute;
-  align-items: right;
-  right: 5%;
-  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 20% 20%;
+  justify-content: center;
+  align-content: center;
 }
 .footer_text {
   margin: 0;
   font-size: large;
+  align-self: center;
 }
