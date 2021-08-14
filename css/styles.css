@@ -139,18 +139,18 @@ main {
   grid-template-rows: 150px;
 }
 .footer_logo_creators {
-  margin-left: 2%;
   display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 100%;
+  grid-template-columns: 40% 60%;
+  /* grid-template-rows: 100%; */
   align-items: center;
   justify-content: center;
 }
 .footer_logo_cactus {
   height: 130px;
+  justify-self: right;
 }
 .footer_logo_creators_text-container {
-  margin-left: 30px;
+  justify-self: center;
 }
 .footer_logo_creators_main-text {
   margin: 0;
@@ -161,7 +161,6 @@ main {
   font-size: larger;
 }
 .footer_images_container{
-  margin-left: 8%;
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: 100%;
@@ -169,17 +168,23 @@ main {
   justify-content: center;
 }
 .footer_image {
-  width: 40%
+  width: 50%;
+  justify-self: center;
+}
+.kiaura_logo{
+  width: 100%
 }
 .footer_text_container {
-  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 33% 34% 33%;
+  grid-template-rows: 20% 20% 20%;
+  justify-content: center;
+  align-content: center;
 }
 .footer_text {
   margin: 0;
   font-size: large;
+  align-self: center;
 }
