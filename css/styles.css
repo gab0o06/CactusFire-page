@@ -38,7 +38,7 @@ main {
 }
 .nav_imagen_logo {
   display: block;
-  width: 100%;
+  max-width: 100%;
   border-radius: 100%;
 }
 .nav_logo-name {
@@ -68,7 +68,7 @@ main {
   flex-direction: column;
 }
 .main_logo_image {
-  width: 20%;
+  max-width: 20%;
 }
 .main_logo_title {
   margin: 0;
@@ -167,7 +167,7 @@ main {
   justify-content: center;
 }
 .footer_image {
-  width: 50%;
+  max-width: 50%;
   justify-self: center;
 }
 .kiaura_logo{
