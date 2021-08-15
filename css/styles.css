@@ -56,10 +56,27 @@ main {
 .nav_list_li {
   margin-left: 1rem;
 }
+
 .nav_list_container {
   padding: 0.5rem;
   background-color: #36a07b;
   border-radius: 25px;
+}
+.nav_list_ul li {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.nav_list_ul li:hover {
+  font-size: 1.1em;
+  color: #4bd6a5;
+}
+.nav_list_ul li:nth-child(5) {
+  color: #eee;
+}
+.nav_list_container:hover {
+  color: #eee;
+  background-color: #105f44;
 }
 
 .main_logo_container {
@@ -95,6 +112,9 @@ main {
   background-color: #36a07b;
   border-radius: 10px;
 }
+.principal-buttons:hover {
+  background-color: #105f44;
+}
 .secondary-buttons_container {
   display: flex;
   align-items: center;
@@ -103,6 +123,9 @@ main {
 }
 .button-external {
   background-color: #7289da;
+}
+.button-external:hover {
+  background-color: #2d3d75;
 }
 .card_container {
   width: 60%;
@@ -115,6 +138,12 @@ main {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
 }
+
+.card_container:hover {
+  width: 65%;
+  background-color: #105f44;
+}
+
 .card_img-container {
   display: flex;
   justify-content: center;
@@ -170,6 +199,9 @@ main {
 .footer_image {
   max-width: 50%;
   justify-self: center;
+}
+.footer_image:hover {
+  max-width: 60%;
 }
 .kiaura_logo {
   width: 100%;
@@ -240,7 +272,7 @@ main {
   .nav_list_li {
     margin-left: 0.5rem;
   }
-  .main_logo_description{
+  .main_logo_description {
     text-align: center;
   }
 
