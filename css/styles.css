@@ -51,9 +51,10 @@ main {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  flex: 1 1 320px;
 }
 .nav_list_li {
-  margin-left: 15px;
+  margin-left: 1rem;
 }
 .nav_list_container {
   padding: 0.5rem;
@@ -159,7 +160,7 @@ main {
   margin: 0;
   font-size: larger;
 }
-.footer_images_container{
+.footer_images_container {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: 100%;
@@ -170,8 +171,8 @@ main {
   max-width: 50%;
   justify-self: center;
 }
-.kiaura_logo{
-  width: 100%
+.kiaura_logo {
+  width: 100%;
 }
 .footer_text_container {
   margin-left: auto;
@@ -186,4 +187,118 @@ main {
   margin: 0;
   font-size: large;
   align-self: center;
+}
+@media only screen and (max-width: 760px) {
+  .nav {
+    height: 6.25rem;
+    font-size: 1em;
+  }
+  .nav_list_li {
+    margin-left: 0.5rem;
+  }
+  .main_logo_container {
+    margin-top: 15px;
+  }
+  .main_logo_title {
+    font-size: 3rem;
+  }
+  .main_logo_description {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  .card_container {
+    width: 80%;
+  }
+
+  .footer_container {
+    height: 100px;
+    grid-template-rows: 100px;
+  }
+
+  .footer_logo_cactus {
+    height: 70px;
+  }
+
+  .footer_logo_creators_main-text {
+    font-size: 1em;
+  }
+  .footer_logo_creators_text {
+    font-size: 0.75em;
+  }
+  .footer_image {
+    max-width: 40%;
+  }
+  .footer_text {
+    font-size: 0.75em;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .nav {
+    height: 6.25rem;
+    font-size: 0.75em;
+  }
+  .nav_list_li {
+    margin-left: 0.5rem;
+  }
+  .main_logo_description{
+    text-align: center;
+  }
+
+  .buttons_container {
+    margin: 30px auto 60px auto;
+  }
+  .principal-buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+  .principal-buttons {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 15px 40px;
+    background-color: #36a07b;
+    border-radius: 10px;
+  }
+  .secondary-buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .button-external {
+    background-color: #7289da;
+  }
+
+  .card_container {
+    width: 325px;
+    height: 550px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+  }
+
+  .footer_container {
+    height: 100px;
+    grid-template-rows: 100px;
+    display: grid;
+    grid-template-columns: 50% 1% 49%;
+  }
+
+  .footer_logo_cactus {
+    height: 70px;
+  }
+
+  .footer_logo_creators_main-text {
+    font-size: 1em;
+  }
+  .footer_logo_creators_text {
+    font-size: 0.75em;
+  }
+  .footer_image {
+    max-width: 0%;
+  }
+  .footer_text {
+    font-size: 0.75em;
+  }
 }
