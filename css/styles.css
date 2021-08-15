@@ -111,6 +111,9 @@ main {
   padding: 15px 40px;
   background-color: #36a07b;
   border-radius: 10px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 .principal-buttons:hover {
   background-color: #105f44;
@@ -137,6 +140,9 @@ main {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 
 .card_container:hover {
