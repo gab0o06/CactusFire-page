@@ -44,6 +44,21 @@ main {
 .nav_logo-name {
   font-size: 2rem;
 }
+.nav_link {
+  text-decoration: none;
+  color: unset;
+}
+.nav_link:visited {
+  text-decoration: none;
+  color: unset;
+}
+.links{
+  text-decoration: none;
+}
+.links:visited{
+  text-decoration: none;
+  color: white;
+}
 .nav_list_ul {
   list-style-type: none;
   padding: 0;

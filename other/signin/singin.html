@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In CactusFire</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <section>
+          <header>
+            <nav class="nav">
+              <a href="../../index.html" class="nav_link">
+                <div class="nav_imagen">
+                  <div class="nav_container_img">
+                    <img
+                      src="../../img/AvatarCactusFire.png"
+                      alt="logo CactusFire"
+                      class="nav_imagen_logo"
+                    />
+                  </div>
+                  <div class="nav_logo-name">CactusFire</div>
+                </div>
+              </a>
+              <div class="nav_list">
+                <ul class="nav_list_ul">
+                  <li>Soporte</li>
+                  <li class="nav_list_li">Documentación</li>
+                  <li class="nav_list_li">Estado</li>
+                  <li class="nav_list_li">Kiaura</li>
+                  <li class="nav_list_li nav_list_container"><a href="#" class="links">Iniciar Sesión</a></li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+        </section>
+      </header>
+      <main>
+        <div class="main_flexbox-container">
+          <img
+            src="../../img/AvatarCactusFire.png"
+            alt="CactusFire Logo"
+            class="main__logo-img"
+          />
+          <h1 class="main_title">Login</h1>
+          <form action="index.html" class="form" method="POST">
+            <fieldset>
+              <div class="form-container">
+                <label for="user" class="main-user">Usuario o mail:</label>
+                <input
+                  class="input-user"
+                  type="text"
+                  id="user"
+                  placeholder="Nombre o correo"
+                  required
+                />
+                <div class="pass-container-grid">
+                  <label for="password" class="main-pass">Contraseña:</label>
+                </div>
+                <input
+                  class="input-contraseña"
+                  type="password"
+                  id="password"
+                  placeholder="Contraseña"
+                  required
+                />
+                <a class="main_link-pass" href="#">Olvidaste la contraseña?</a>
+                <div class="submit-container">
+                  <input type="submit" value="Send" class="input-submit" />
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </main>
+      <footer></footer>
+    </section>
+  </body>
+</html>
