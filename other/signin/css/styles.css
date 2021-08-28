@@ -58,8 +58,8 @@ main {
   color: white;
 }
 .links {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 .links:visited {
   text-decoration: none;
