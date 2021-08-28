@@ -183,6 +183,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 .link-last {
   font-size: 1.5em;
