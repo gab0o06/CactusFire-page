@@ -150,6 +150,7 @@ main {
 .main_link-pass {
   margin-left: auto;
   margin-bottom: 30px;
+  color: white;
 }
 .main_link-pass:visited {
   text-decoration: none;
@@ -161,11 +162,17 @@ main {
   border-bottom: 1px solid #eee;
   color: inherit;
 }
+.input-user:focus{
+  outline: none;
+}
 .input-contraseña {
   background: none;
   border: none;
   border-bottom: 1px solid #eee;
   color: inherit;
+}
+.input-contraseña:focus{
+  outline: none;
 }
 .submit-container {
   display: flex;

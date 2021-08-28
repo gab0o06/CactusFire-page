@@ -54,6 +54,7 @@ main {
 }
 .links{
   text-decoration: none;
+  color: white;
 }
 .links:visited{
   text-decoration: none;
