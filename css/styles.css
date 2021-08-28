@@ -46,7 +46,7 @@ main {
 }
 .nav_link {
   text-decoration: none;
-  color: unset;
+  color: white;
 }
 .nav_link:visited {
   text-decoration: none;
