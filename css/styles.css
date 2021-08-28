@@ -50,7 +50,7 @@ main {
 }
 .nav_link:visited {
   text-decoration: none;
-  color: unset;
+  color: white;
 }
 .links{
   text-decoration: none;

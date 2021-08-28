@@ -58,6 +58,7 @@ main {
   color: white;
 }
 .links {
+  color: white;
   text-decoration: none;
 }
 .links:visited {
@@ -178,7 +179,6 @@ main {
   font-size: 1.25em;
   color: white;
 }
-
 .link-last-container {
   display: flex;
   justify-content: center;
