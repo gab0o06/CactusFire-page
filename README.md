@@ -3,6 +3,4 @@
 ### Página hecha por Gabo
 #### En Discord => Gab0o06#7065
 
-```yml
-Nueva forma del formulario con responsive design!
-```
+https://gab0o06.github.io/CactusFire-page/index.html
